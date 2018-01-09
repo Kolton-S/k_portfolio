@@ -1,0 +1,81 @@
+@font-face {
+  font-family: 'Lemon Milk';
+  src: url('../fonts/LemonMilk.otf');
+}
+
+@font-face {
+  font-family: 'Lemon Milk Bold';
+  src: url('../fonts/LemonMilkbold.otf');
+}
+
+.hidden{
+  display: none;
+}
+
+body{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+/* -------START------- */
+
+#startTitle{
+  font-family: "Lemon Milk Bold";
+  color: #505050;
+  font-size: 40px;
+  text-align: right;
+
+}
+
+#startSub{
+  font-family: "Lemon Milk Bold";
+  color: #5e0000;
+  font-size: 25px;
+  text-align: right;
+
+}
+
+#startButton{
+  font-family: "Lemon Milk Bold";
+  color: white;
+  background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 22%,#5e0000 63%);
+  padding: 10px 40px 10px 40px;
+  border: #000 solid 1px;
+  margin: 0 0 0 64%;
+
+}
+
+#startButton:hover{
+  background: -webkit-linear-gradient(top, #bf0335 0%,#a30320 22%,#820000 63%);
+  cursor: pointer;
+}
+
+#vertCenter{
+  margin: 22% 10% 0 60%;
+  z-index: 99;
+  position: absolute;
+}
+
+#diagonalBar{
+  position: absolute;
+  height: 100vh;
+  z-index: 1;
+}
+
+#logo{
+  height: 100vh;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: #b61924;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ------HOME SELECTION------ */

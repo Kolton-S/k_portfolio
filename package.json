@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kolton-S/k_portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "grunt",
+    "npm"
+  ],
+  "author": "Kolton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kolton-S/k_portfolio/issues"
+  },
+  "homepage": "https://github.com/Kolton-S/k_portfolio#readme",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^3.3.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "particles.js": "^2.0.0"
+  }
+}
