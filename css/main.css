@@ -14,9 +14,7 @@
 
 body{
   position: relative;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
+  overflow-x: hidden;
 }
 
 /* -------START------- */
@@ -26,7 +24,6 @@ body{
   color: #505050;
   font-size: 40px;
   text-align: right;
-
 }
 
 #startSub{
@@ -34,7 +31,6 @@ body{
   color: #5e0000;
   font-size: 25px;
   text-align: right;
-
 }
 
 #startButton{
@@ -73,9 +69,217 @@ body{
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: #b61924;
   background-size: cover;
   background-position: 50% 50%;
 }
 
 /* ------HOME SELECTION------ */
+
+#selectionMenu{
+  position: relative;
+}
+
+#webDesign{
+  background: url("../images/webExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+  position: absolute;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#webDesign:hover{
+  cursor: pointer;
+  background: url("../images/webExample1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#graphicDesign:hover{
+  cursor: pointer;
+  background: url("../images/graphExample1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#graphicDesign{
+  background: url("../images/graphExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 41%;
+  z-index: 99;
+  margin-left: -10%;
+  transform: skew(-10deg);
+  position: absolute;
+  border-right: 15px solid #590100;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#photography:hover{
+  cursor: pointer;
+  background: url("../images/photoExample1.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#photography{
+  background: url("../images/photoExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+  width: 41%;
+  z-index: 101;
+  margin-left: 70%;
+  transform: skew(-10deg);
+  position: absolute;
+  border-left: 15px solid #590100;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  -o-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#contactButton{
+  z-index: 200;
+  width: 100%;
+  height: 55px;
+  background-color: #590100;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+}
+
+#contactButton:hover{
+  cursor: pointer;
+  background-color: #890000;
+}
+
+#contactButt{
+  font-family: "Lemon Milk Bold";
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 6px;
+}
+
+/* ------MEDIA QUERIES------ */
+
+@media only screen and (max-width : 910px) {
+  #diagonalBar{
+    display: none;
+  }
+}
+
+@media only screen and (min-width : 600px) and (max-width : 1024px) {
+  #diagonalBar{
+    display: none;
+  }
+
+  #startTitle{
+    font-size: 135%;
+    color: white;
+  }
+
+  #startSub{
+    font-size: 95%;
+    color: white;
+  }
+
+  #vertCenter{
+    margin-left: 39%;
+    margin-top: 31%;
+  }
+
+  #startButton{
+    margin-left: 19%;
+  }
+
+  #bodyBG{
+  background: url("../images/mobileBackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}
+
+@media only screen and (min-width : 1025px) and (max-width : 1242px) {
+  #startTitle{
+    font-size: 235%;
+  }
+
+  #startSub{
+    font-size: 150%;
+  }
+
+  #vertCenter{
+    margin-left: 50%;
+    margin-top: 30%;
+  }
+
+  #startButton{
+    margin-left: 61%;
+  }
+}
+
+@media only screen and (min-width : 320px) and (max-width : 599px) {
+  #startTitle{
+    font-size: 109%;
+    color: white;
+  }
+
+  #startSub{
+    font-size: 84%;
+    color: white;
+  }
+
+  #vertCenter{
+    margin-left: 34%;
+    margin-top: 46%;
+  }
+
+  #startButton{
+    margin-left: 8%;
+  }
+
+  #bodyBG{
+  background: url("../images/mobileBackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+}

@@ -9,7 +9,7 @@
       <link rel="stylesheet" href="css/app.css">
       <link rel="stylesheet" href="css/main.css">
    </head>
-   <body>
+   <body id="bodyBG">
       <h1 class="hidden">Kolton Simpson - Front End and Back End</h1>
       <section id="pageLoader" class="hidden">
          <h1 class="hidden">Page Loading</h1>
@@ -18,15 +18,16 @@
       <section id="mainStart" class="extended row">
          <h1 class="hidden">Main Start</h1>
          <div id="particles-js"></div>
-         <div id="diagonalBar">
+         <div id="diagonalBar" class="hide-for-small">
             <img id="logo" src="images/logoStart.png" alt="KS - Logo">
          </div>
        <div id="vertCenter">
          <h2 id="startTitle" class="large-6 columns">Kolton Simpson</h2>
          <h3 id="startSub" class="large-4 columns">Back End/Front End</h3>
-         <button type="button" id="startButton" class="large-2 large-offset-10 columns">Start</button>
+         <a href="selection.html"><button type="button" id="startButton" class="large-2 large-offset-10 columns">Start</button></a>
        </div>
       </section>
+
       <script src="js/particles/particles.js"></script>
       <script src="js/particles/app.js"></script>
       <script src="js/main.js" defer="defer"></script>
