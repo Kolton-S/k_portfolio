@@ -195,6 +195,145 @@ body{
   margin-top: 6px;
 }
 
+#graphMobileDesign{
+  background: url("../images/graphExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 33.33vh;
+  width: 100%;
+  z-index: 101;
+  border-bottom: 15px solid #590100;
+}
+
+#webMobileDesign{
+  background: url("../images/webExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 33.33vh;
+  width: 100%;
+  z-index: 101;
+  border-bottom: 15px solid #590100;
+}
+
+#photoMobileDesign{
+  background: url("../images/photoExample1White.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 33.33vh;
+  width: 100%;
+  z-index: 101;
+}
+
+/* ------GALLERY SECTIONS------ */
+
+#coloredBar{
+  z-index: 200;
+  width: 100%;
+  height: 35px;
+  background-color: #590100;
+  position: absolute;
+  top: 0;
+}
+
+#dotMenu{
+  padding-top: 55px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  float: left;
+  width: 4%;
+}
+
+#title{
+  padding-top: 55px;
+  padding-left: 25px;
+  font-family: "Lemon Milk";
+  float: left;
+  color: #505050;
+}
+
+#goBack{
+  clear: both;
+  margin-top: 0;
+  font-size: 15px;
+  font-family: arial;
+  margin-left: 1.6%;
+}
+
+/* ------CONTACT------ */
+
+textarea {
+  resize: none;
+  border: 2px solid #590100;
+  height: 175px;
+  width: 230px;
+}
+
+.buttonContact{
+  margin-left: 76%;
+}
+
+.socialIcon{
+  width: 50px;
+  float: left;
+  margin-right: 15px;
+}
+
+#contactPara{
+  padding: 6% 0 0 0;
+  margin: 0 0 0 26%;
+}
+
+#socialPara a{
+  font-family: arial;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 0 0 25px 0;
+}
+
+#socialPara a:hover{
+  font-family: arial;
+  font-size: 18px;
+  color: #505050;
+  text-decoration: none;
+}
+
+#headshot{
+  width: 20%;
+  float: left;
+  border: 5px solid #590100;
+  margin: 0 0 50px 50px;
+}
+
+#social{
+  clear: both;
+  margin: 0 0 0 50px;
+}
+
+#form{
+  float: right;
+  margin: -30% 0 0 0;
+  padding-right: 12%;
+}
+
+.textForm{
+  margin-bottom: 20px;
+  border: 2px solid #590100;
+  width: 230px;
+  height: 36px;
+  margin-left: 28px;
+}
+.formLabel{
+  font-family: arial;
+  font-size: 18px;
+  color: #505050;
+}
+
 /* ------MEDIA QUERIES------ */
 
 @media only screen and (max-width : 910px) {
@@ -227,6 +366,34 @@ body{
     margin-left: 19%;
   }
 
+  #graphMobileDesign{
+    display: none;
+  }
+
+  #webMobileDesign{
+    display: none;
+  }
+
+  #photoMobileDesign{
+    display: none;
+  }
+
+  #dotMenu{
+    padding-bottom: 0px;
+    width: 10%;
+  }
+
+  #title{
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  #goBack{
+    margin-top: 0px;
+    font-size: 11px;
+    margin-left: 5.8%;
+  }
+
   #bodyBG{
   background: url("../images/mobileBackground.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -253,6 +420,18 @@ body{
   #startButton{
     margin-left: 61%;
   }
+
+  #graphMobileDesign{
+    display: none;
+  }
+
+  #webMobileDesign{
+    display: none;
+  }
+
+  #photoMobileDesign{
+    display: none;
+  }
 }
 
 @media only screen and (min-width : 320px) and (max-width : 599px) {
@@ -273,6 +452,79 @@ body{
 
   #startButton{
     margin-left: 8%;
+  }
+
+  #webDesign{
+    display: none;
+  }
+
+  #graphicDesign{
+    display: none;
+  }
+
+  #photography{
+    display: none;
+  }
+
+  #graphMobileDesign{
+    display: block;
+  }
+
+  #webMobileDesign{
+    display: block;
+  }
+
+  #photoMobileDesign{
+    display: block;
+  }
+
+  #dotMenu{
+    padding-bottom: 0px;
+    width: 10%;
+  }
+
+  #title{
+    padding-top: 10%;
+    padding-left: 10%;
+  }
+
+  #goBack{
+    margin-top: 0px;
+    font-size: 11px;
+    margin-left: 5.8%;
+  }
+
+  #contactPara{
+    font-size: 8px;
+  }
+
+  #socialPara a{
+    font-size: 8px;
+    margin-top: 15px;
+  }
+
+  .socialIcon{
+    clear: both;
+  }
+
+  #socialPara a:hover{
+    font-size: 8px;
+  }
+
+
+  .textForm{
+    width: 66%;
+    height: 10%;
+  }
+
+  textarea{
+    height: 30%;
+    width: 67%;
+  }
+
+  #form{
+    margin-top: 15%;
+    padding-right: 6%;
   }
 
   #bodyBG{

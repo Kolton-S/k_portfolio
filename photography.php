@@ -15,7 +15,7 @@
     <section id="header">
         <div id="coloredBar"></div>
         <a href="selection.html"><img src="images/dotMenu.png" id="dotMenu" alt="Menu"></a>
-        <h2 id="title">Graphic Design</h2>
+        <h2 id="title">Photography</h2>
         <h2 id="goBack">Go Back</h2>
     </section>
     <div class="stage">
@@ -122,6 +122,7 @@
         function slideLoaded(args) {
 
         }
+
 
         function sliderLoaded(args) {
 
